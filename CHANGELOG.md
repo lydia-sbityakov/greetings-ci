@@ -1,3 +1,12 @@
+# [0.5.0](https://github.com/lydia-sbityakov/greetings-ci/compare/v0.4.0...v0.5.0) (2023-02-16)
+
+
+### Features
+
+*  add workflow dispatch ([37c3de1](https://github.com/lydia-sbityakov/greetings-ci/commit/37c3de14ebd366c2d509bae820b8c71843f9ce1b))
+
+
+
 # [0.4.0](https://github.com/lydia-sbityakov/greetings-ci/compare/v0.3.0...v0.4.0) (2023-02-16)
 
 
