@@ -49,9 +49,10 @@ jobs:
       uses:  actions/upload-artifact@v3
       with:
         name:  greetings-jar
-        path: 
-          build/libs
+        path:
           test_script.sh
+          build/libs
+          
    
   test-run:
 
