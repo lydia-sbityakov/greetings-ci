@@ -76,7 +76,7 @@ jobs:
    - name:  Execute test
      shell: bash
      run:
-       chmod +x ./test-script.sh
-       ./test-script.sh ${{ needs.build.outputs.artifact-tag || github.events.inputs.myVersion }} ${{ github.event.inputs.myValues }}
+       chmod +x ./test_script.sh
+       ./test_script.sh ${{ needs.build.outputs.artifact-tag || github.events.inputs.myVersion }} ${{ github.event.inputs.myValues }}
 
  
