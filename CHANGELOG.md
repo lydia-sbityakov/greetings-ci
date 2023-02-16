@@ -1,3 +1,12 @@
+# [0.4.0](https://github.com/lydia-sbityakov/greetings-ci/compare/v0.3.0...v0.4.0) (2023-02-16)
+
+
+### Features
+
+*  adding testing to pipeline ([e350a26](https://github.com/lydia-sbityakov/greetings-ci/commit/e350a2661365e83eeb66dba2f20486da2ad0cc30))
+
+
+
 # [0.3.0](https://github.com/lydia-sbityakov/greetings-ci/compare/v0.2.0...v0.3.0) (2023-02-16)
 
 
