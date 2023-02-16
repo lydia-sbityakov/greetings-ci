@@ -20,10 +20,6 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
-    
-    # Map a step output to a job output
-    outputs:
-      artifact-tag:  ${{ steps.changelog.outputs.version }}
 
     steps:
     - uses: actions/checkout@v3
@@ -49,28 +45,6 @@ jobs:
       uses:  actions/upload-artifact@v3
       with:
         name:  greetings-jar
-        path:  
-           build/libs
-           test-script.sh
-  
-  
-  test-run:
-
-   runs-on: ubuntu-latest
-   needs: build
-
-   steps:
-   - name:  Download candidate artifacts
-     uses:  actions/download-artifact@v3
-     with:
-      name:  greetings-jar
-      path:
-        build/libs
-        test-script.sh
-
-   - name:  Execute test
-     shell: bash
-     run:
-      chmod +x ./test-script.sh
-      #./test-script.sh ${{ needs.build.outputs.artifact-tag || github.events.inputs.myVersion }} ${{ github.event.inputs.myValues }}
-
+        path:  build/libs
+        
+    
