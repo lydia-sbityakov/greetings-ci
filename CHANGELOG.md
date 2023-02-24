@@ -1,9 +1,10 @@
-## [0.6.2](https://github.com/lydia-sbityakov/greetings-ci/compare/v0.6.0...v0.6.2) (2023-02-24)
+## [0.6.3](https://github.com/lydia-sbityakov/greetings-ci/compare/v0.6.0...v0.6.3) (2023-02-24)
 
 
 ### Bug Fixes
 
-*  greeting for blue or green ([0052f32](https://github.com/lydia-sbityakov/greetings-ci/commit/0052f326636d6625b114b07082aaca2d57f990a2))
+*  add greeting for blue or green ([#9](https://github.com/lydia-sbityakov/greetings-ci/issues/9)) ([e8fdf5b](https://github.com/lydia-sbityakov/greetings-ci/commit/e8fdf5b6ea9d72aabd2aecff5f2ef1aad9cf6742))
+*  remove greeting for green ([a470afc](https://github.com/lydia-sbityakov/greetings-ci/commit/a470afc5eb81a71d9c33a40cdebf8198f58153ba))
 
 
 
