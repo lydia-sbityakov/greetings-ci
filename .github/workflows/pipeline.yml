@@ -77,7 +77,7 @@ jobs:
      shell: bash
      env:
       ARGS:  ${{ github.event.inputs.myValues }}
-     run:
+     run: |
        chmod +x ./test_script.sh
        ./test_script.sh ${{ needs.build.outputs.artifact-tag || github.events.inputs.myVersion }}  "$ARGS"
 
