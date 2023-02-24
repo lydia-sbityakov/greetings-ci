@@ -1,3 +1,12 @@
+## [0.6.1](https://github.com/lydia-sbityakov/greetings-ci/compare/v0.6.0...v0.6.1) (2023-02-24)
+
+
+### Bug Fixes
+
+*  update to greeting for blue ([e163cd0](https://github.com/lydia-sbityakov/greetings-ci/commit/e163cd06b8738389e920db12db458af695d1f470))
+
+
+
 # [0.6.0](https://github.com/lydia-sbityakov/greetings-ci/compare/v0.5.1...v0.6.0) (2023-02-24)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 *  adding testing to pipeline ([e350a26](https://github.com/lydia-sbityakov/greetings-ci/commit/e350a2661365e83eeb66dba2f20486da2ad0cc30))
-
-
-
-# [0.3.0](https://github.com/lydia-sbityakov/greetings-ci/compare/v0.2.0...v0.3.0) (2023-02-16)
-
-
-### Features
-
-*  add testing to pipeline ([70cdccb](https://github.com/lydia-sbityakov/greetings-ci/commit/70cdccbf112e92c09f143ffb6772ba404d6334d1))
 
 
 
