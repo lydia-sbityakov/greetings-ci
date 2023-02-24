@@ -68,19 +68,13 @@ jobs:
    needs: build
 
    steps:
-   - name:  Download candidate artifacts
-     uses:  actions/download-artifact@v3
+   - uses:  actions/checkout@v3
+
+   - name:  run-test
+     uses:  ./.github/actions/test-action
      with:
-       name:  greetings-jar
-
-   - name:  Execute test
-     shell: bash
-     env:
-      ARGS:  ${{ github.event.inputs.myValues }}
-     run: |
-       chmod +x ./test_script.sh
-       ./test_script.sh ${{ needs.build.outputs.artifact-tag || github.events.inputs.myVersion }}  "$ARGS"
-
+        artifact-version:  ${{ needs.build.outputs.artifact-tag || github.event.inputs.myVersion }} 
+        arguments-to-print: ${{ github.events.inputs.myValues }}
 
   create-issue-on-failure:
 
