@@ -1,3 +1,12 @@
+# [0.6.0](https://github.com/lydia-sbityakov/greetings-ci/compare/v0.5.1...v0.6.0) (2023-02-24)
+
+
+### Features
+
+*  add deployment ([8cfdce1](https://github.com/lydia-sbityakov/greetings-ci/commit/8cfdce1ea204b8bbf087b8d32e8115e8f322b482))
+
+
+
 ## [0.5.1](https://github.com/lydia-sbityakov/greetings-ci/compare/v0.5.0...v0.5.1) (2023-02-24)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 *  add testing to pipeline ([70cdccb](https://github.com/lydia-sbityakov/greetings-ci/commit/70cdccbf112e92c09f143ffb6772ba404d6334d1))
-
-
-
-# [0.2.0](https://github.com/lydia-sbityakov/greetings-ci/compare/v0.1.0...v0.2.0) (2023-02-16)
-
-
-### Features
-
-*  version artifact ([5c02620](https://github.com/lydia-sbityakov/greetings-ci/commit/5c02620ccb0ea08261232266f5f1e8eb06980911))
 
 
 
